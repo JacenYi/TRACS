@@ -75,11 +75,11 @@ const Risk = ({ prevStep, handleContinue }) => {
       setApiLoading(true);
       setApiError('');
       
-      
+         //调用自身AI工具
         // 第一步：获取token
-        const tokenResponse = await axios.post('http://**********************/ai-gateway/api/v1/auth/token', {
-          "appKey": "aiga****************2025",
-          "appSecret": "aiga*************curekey"
+        const tokenResponse = await axios.post('http://**********************/api/v1/auth/token', {
+          "appKey": "aiga*************abc",
+          "appSecret": "aiga*************123"
         });
         
         // 存储获取到的token
@@ -88,9 +88,9 @@ const Risk = ({ prevStep, handleContinue }) => {
      
       // 第二步：使用token调用第二个API
       const completionResponse = await axios.post(
-        'http://******************/ai-gateway/api/v1/chat/completions',
+        'http://******************/api/v1/chat/completions',
         {
-          "model": "bot*************t7kwx",
+          "model": "agent*************111",
           "messages": [  
             {
               "role": "system",
