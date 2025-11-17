@@ -95,6 +95,6 @@ Merchant Transaction Risk Query supports a multi-layered ecosystem:
 
 ### One-Line Summary
 
-> **Intelligent Trading Risk Control System = AI Intelligence × Data Depth × Walrus Trusted Storage.**
+> **Transaction Risk Analysis & Control System（TRACS） = AI Intelligence × Data Depth × Walrus Trusted Storage.**
 > Every transaction is understood, verified, and trusted.
 
